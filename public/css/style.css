@@ -28,6 +28,7 @@ margin: 0; background: #fff; color:#222;}
 
 /*  ################################ Header ################################ */
 header{position: fixed;width: 100%; z-index: 100;}
+header.active{background: #fff; box-shadow: 0 3px 5px rgb(0,0,0,0.05);}
 .header-inner{width: 1300px; margin:0 auto; 
 overflow: hidden; padding-top: 30px; padding-bottom: 15px;}
 .logo{float: left;}
@@ -78,6 +79,18 @@ overflow: hidden; padding-top: 30px; padding-bottom: 15px;}
 .ceo-photo{width: 40%;}
 .ceo-photo img{border-radius: 15px; width: 100%;}
 
+/*  ################################ section: foucs ################################ */
+.focus{margin-top: 150px;}
+.foucs-inner{width: 1300px; margin: 0 auto;}
+.headline-share{text-align: center;}
+.headline-share h1{}
+.foucs-content{text-align: center;}
+.focus-item{display: inline-block; width: 30%; padding: 0 50px;}
+.focus-item img{width: 75px;
+  filter:invert(96%) sepia(5%) saturate(3160%) hue-rotate(304deg) brighteness(91%) contrast(96%);
+}
+.focus-item h3{font-weight: bold;}
+.focus-item p{}
 
 
 
