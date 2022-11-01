@@ -1,0 +1,95 @@
+/* Fontawesome 4.7 */
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+/* XEION CDN */
+@import url('http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css');
+
+/* Web Fonts - Source Sans Pro */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400;600;700;900&display=swap');
+/* font-family: 'Source Sans Pro', sans-serif; */
+
+/* Web Fonts - NoonNoo */
+@font-face {
+  font-family: 'NEXON Lv2 Gothic';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv2 Gothic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Reset CSS */
+*{box-sizing: border-box;} 
+a{text-decoration: none; color:#222;}
+button, input{outline: none;}
+h1,h2,h3,h4,h5,h6{margin-top: 0; font-weight: normal; line-height: 1.5em;}
+
+/* Default CSS */
+body{font-family: 'NEXON Lv2 Gothic',sans-serif; font-size: 18px; line-height: 1.7em;
+margin: 0; background: #fff; color:#222;}
+
+
+/*  ################################ Header ################################ */
+header{position: fixed;width: 100%; z-index: 100;}
+.header-inner{width: 1300px; margin:0 auto; 
+overflow: hidden; padding-top: 30px; padding-bottom: 15px;}
+.logo{float: left;}
+.logo img{margin-top: -7px;}
+.gnb{float: right;}
+.gnb a{margin: 10px; font-size: 16px;}
+
+
+/*  ################################ section: welcome ################################ */
+.welcome{ height: 90vh; position: relative;}
+.slideshow{}
+.welcome-heading{position: absolute; top: 50%; transform: translateY(-50%); left:200px; text-align: center; width: 750px;}
+.welcome-heading span{font-size: 24px;}
+.welcome-heading h1{font-family: 'source sans Pro',
+  sans-serif; font-size:60px; font-weight: 600; line-height: 1.2em; margin-bottom: 30px; margin-top: 15px;}
+.welcome-heading h1 em{display: block; font-style: normal; color:#eb4d4b}
+.welcome-heading p{padding: 0 100px; margin-bottom: 50px;}
+.welcome-btns .btn{transition: 0.5s; display: inline-block;  width: 160px; padding: 8px; color:#fff; border-radius: 5px; margin: 5px;}
+.btn.start{background: #0abde3;}
+.btn.guide{background: #fff; color:#222;}
+.welcome-btns .btn:hover{
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+  transform: translateY(-5px);
+}
+
+
+/*  ################################ section: ceo-access ################################ */
+.ceo-access{}
+.ceo-inner,.access-inner {
+  width: 1300px;
+  margin:0 auto;
+  border: 1px solid red;
+}
+.ceo-content{overflow: hidden;}
+.ceo-content > div{
+  float: left;
+  width: 50%;
+}
+
+.ceo-left{padding-right: 50px;}
+.ceo-left img{width: 30px;}
+.ceo-left h3{font-weight: bold;}
+.ceo-right{text-align: center;}
+.ceo-right > div{float: left; padding: 20px;}
+.ceo-msg{width: 60%;}
+.ceo-msg h3{font-size: 28px; color:#009b72;}
+.ceo-msg h3 big{display: block; }
+.ceo-photo{width: 40%;}
+.ceo-photo img{border-radius: 15px; width: 100%;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ###################### Slick Custom CSS ########################## */
+.slideshow .slick-arrow{border: 1px solid #000; display: none !important;}
+.slideshow img{outline: none;}
